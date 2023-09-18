@@ -8,13 +8,13 @@ body {
     display: flex;
     align-items: center;
     flex-direction: column;
-    width: 100vw;
+    width: 100vw auto;
     font-family: "Inter Tight", sans-serif;
 }
 
 p {
     font-size: 20px;
-    margin-top: 0px;    
+    margin-top: 0px;
 }
 
 a {
@@ -47,7 +47,7 @@ a {
     text-align: center;
 }
 
-.links-section > h1 {
+.links-section>h1 {
     font-size: 21px;
     font-weight: bold;
     border-radius: 1em;
@@ -57,7 +57,7 @@ a {
     border: 1px solid #EEEEEE;
 }
 
-.links-section > p {
+.links-section>p {
     font-size: 16px;
     font-weight: lighter;
 }
@@ -78,7 +78,7 @@ a {
     margin: 15px;
 }
 
-.link-tile > p {
+.link-tile>p {
     margin: 4px 8px;
     font-size: 20px;
 }
@@ -87,7 +87,7 @@ a {
     transition: cubic-bezier(.07, 1.41, .82, 1.41) 0.2s;
     transform: scale(1.02);
 }
- 
+
 #vanta {
     z-index: 0;
     position: absolute;
@@ -97,6 +97,3 @@ a {
     width: 100%;
     height: 100%;
 }
-
-
-
